@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
+class planet
+{
+
+};
+
 void main()
 {
-	cout << "Test text" << endl;
+	system("chcp 1251>nul");
+
+	cout << "\t\t\tРасчет парада планет" << endl;
+
+
 }
