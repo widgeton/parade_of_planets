@@ -26,9 +26,9 @@ public:
 };
 
 
-void main()
+int main()
 {
-	system("chcp 1251>nul");
+	//system("chcp 1251>nul"); //для Windows нужно раскомментировать
 
 	cout << "\t\t\tРасчет парада планет" << endl;
 
@@ -75,4 +75,5 @@ void main()
 		}
 	}
 
+	return 0;
 }
