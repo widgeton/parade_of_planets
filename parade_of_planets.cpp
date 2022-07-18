@@ -5,9 +5,9 @@ class planet
 {
 public:
 
-	int time;      //Âðåìÿ çÿ êîòîðîå ïëàíåò ïðîõîäèò îäèí ãðàäóñ
-	int  degree;   //Ñ÷åò÷èê ãðàäóñîâ
-	int day;       //Ñ÷åò÷èê âðåìåíè
+	int time;      //Ð’Ñ€ÐµÐ¼Ñ Ð¿Ñ€Ð¾Ñ…Ð¾Ð¶Ð´ÐµÐ½Ð¸Ñ Ð¿Ð»Ð°Ð½ÐµÑ‚Ñ‹ Ð¾Ð´Ð½Ð¾Ð³Ð¾ Ð³Ñ€Ð°Ð´ÑƒÑÐ°
+	int  degree;   //Ð¡Ñ‡ÐµÑ‚Ñ‡Ð¸Ðº Ð³Ñ€Ð°Ð´ÑƒÑÐ¾Ð²
+	int day;       //Ð¡Ñ‡ÐµÑ‚Ñ‡Ð¸Ðº Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸
 
 	planet(int a, int b = 0)
 	{
@@ -30,7 +30,7 @@ void main()
 {
 	system("chcp 1251>nul");
 
-	cout << "\t\t\tÐàñ÷åò ïàðàäà ïëàíåò" << endl;
+	cout << "\t\t\tÐ Ð°ÑÑ‡ÐµÑ‚ Ð¿Ð°Ñ€Ð°Ð´Ð° Ð¿Ð»Ð°Ð½ÐµÑ‚" << endl;
 
 	const int numberOfPlanets = 4;
 	int year = 0;
